@@ -1,1 +1,458 @@
-hello word
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="CrownMed Hospital - Rumah Sakit Modern dengan Pelayanan Kesehatan Terpercaya">
+    <meta name="keywords" content="rumah sakit, kesehatan, dokter, layanan medis, IGD">
+    <meta name="author" content="CrownMed Hospital">
+    <title>CrownMed Hospital - Pelayanan Kesehatan Terpercaya</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header id="header">
+        <div class="container">
+            <div class="logo">
+                <i class="fas fa-hospital"></i>
+                <h1>CrownMed Hospital</h1>
+            </div>
+            <nav id="navbar">
+                <ul>
+                    <li><a href="#beranda" class="nav-link">Beranda</a></li>
+                    <li><a href="#layanan" class="nav-link">Layanan</a></li>
+                    <li><a href="#dokter" class="nav-link">Dokter</a></li>
+                    <li><a href="#fasilitas" class="nav-link">Fasilitas</a></li>
+                    <li><a href="#kontak" class="nav-link">Kontak</a></li>
+                </ul>
+            </nav>
+            <button class="menu-toggle" id="menuToggle" aria-label="Toggle Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <section id="beranda" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1 class="hero-title">Selamat Datang di <span>CrownMed Hospital</span></h1>
+            <p class="hero-subtitle">Pelayanan Kesehatan Modern dengan Sentuhan Empati dan Profesionalisme Tinggi</p>
+            <div class="hero-buttons">
+                <a href="#kontak" class="btn btn-primary">
+                    <i class="fas fa-calendar-check"></i> Buat Janji Temu
+                </a>
+                <a href="#layanan" class="btn btn-secondary">
+                    <i class="fas fa-info-circle"></i> Lihat Layanan
+                </a>
+            </div>
+            <div class="hero-stats">
+                <div class="stat-item">
+                    <i class="fas fa-user-md"></i>
+                    <h3>50+</h3>
+                    <p>Dokter Spesialis</p>
+                </div>
+                <div class="stat-item">
+                    <i class="fas fa-bed"></i>
+                    <h3>200+</h3>
+                    <p>Tempat Tidur</p>
+                </div>
+                <div class="stat-item">
+                    <i class="fas fa-award"></i>
+                    <h3>15+</h3>
+                    <p>Tahun Pengalaman</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2>Tentang CrownMed Hospital</h2>
+                    <p>CrownMed Hospital adalah rumah sakit modern yang berkomitmen memberikan pelayanan kesehatan berkualitas tinggi dengan didukung oleh tim medis profesional dan peralatan medis terkini.</p>
+                    <p>Dengan pengalaman lebih dari 15 tahun, kami telah melayani ribuan pasien dengan penuh dedikasi dan kasih sayang. Kepuasan dan kesembuhan pasien adalah prioritas utama kami.</p>
+                    <div class="about-features">
+                        <div class="feature">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Akreditasi Nasional</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Layanan 24/7</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Dokter Berpengalaman</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Fasilitas Modern</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="logo.png" alt="CrownMed Hospital Building">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="layanan" class="services">
+        <div class="container">
+            <div class="section-header">
+                <h2>Layanan Unggulan Kami</h2>
+                <p>Berbagai layanan kesehatan komprehensif untuk kebutuhan Anda</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-ambulance"></i>
+                    </div>
+                    <img src="foto1.jpg" alt="IGD 24 Jam">
+                    <h3>IGD 24 Jam</h3>
+                    <p>Unit Gawat Darurat yang siap melayani Anda selama 24 jam dengan tim medis profesional dan responsif</p>
+                    <a href="#kontak" class="service-link">Pelajari Lebih Lanjut <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-hospital-user"></i>
+                    </div>
+                    <img src="foto2.jpg" alt="Rawat Inap">
+                    <h3>Rawat Inap</h3>
+                    <p>Fasilitas rawat inap nyaman dengan berbagai kelas perawatan sesuai kebutuhan dan kenyamanan Anda</p>
+                    <a href="#kontak" class="service-link">Pelajari Lebih Lanjut <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-stethoscope"></i>
+                    </div>
+                    <img src="foto3.jpg" alt="Medical Check Up">
+                    <h3>Medical Check Up</h3>
+                    <p>Pemeriksaan kesehatan menyeluruh dengan peralatan modern dan hasil akurat untuk deteksi dini penyakit</p>
+                    <a href="#kontak" class="service-link">Pelajari Lebih Lanjut <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-flask"></i>
+                    </div>
+                    <img src="foto4.jpg" alt="Laboratorium">
+                    <h3>Laboratorium</h3>
+                    <p>Laboratorium lengkap dengan teknologi terkini untuk diagnosis yang tepat dan cepat</p>
+                    <a href="#kontak" class="service-link">Pelajari Lebih Lanjut <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-x-ray"></i>
+                    </div>
+                    <img src="foto7.jpg" alt="Radiologi">
+                    <h3>Radiologi</h3>
+                    <p>Layanan radiologi dengan peralatan canggih untuk pencitraan diagnostik berkualitas tinggi</p>
+                    <a href="#kontak" class="service-link">Pelajari Lebih Lanjut <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-pills"></i>
+                    </div>
+                    <img src="foto9.jpg" alt="Farmasi">
+                    <h3>Farmasi</h3>
+                    <p>Apotek lengkap dengan obat-obatan berkualitas dan pelayanan farmasi terpercaya</p>
+                    <a href="#kontak" class="service-link">Pelajari Lebih Lanjut <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="dokter" class="doctors">
+        <div class="container">
+            <div class="section-header">
+                <h2>Tim Dokter Spesialis Kami</h2>
+                <p>Dokter berpengalaman dan berdedikasi tinggi untuk kesehatan Anda</p>
+            </div>
+            <div class="doctors-grid">
+                <div class="doctor-card">
+                    <div class="doctor-img">
+                        <img src="foto1dokter.jpg" alt="dr. Arga Rienta Sutanto">
+                        <div class="doctor-overlay">
+                            <button class="btn-consult">Konsultasi</button>
+                        </div>
+                    </div>
+                    <div class="doctor-info">
+                        <h3>dr. Arga Rienta Sutanto, Sp.PD</h3>
+                        <p class="doctor-specialty">Spesialis Penyakit Dalam</p>
+                        <p class="doctor-exp">15 Tahun Pengalaman</p>
+                        <div class="doctor-schedule">
+                            <i class="far fa-clock"></i> Senin - Jumat, 09:00 - 15:00
+                        </div>
+                    </div>
+                </div>
+                <div class="doctor-card">
+                    <div class="doctor-img">
+                        <img src="fotodokter2.jpg" alt="dr. Tiara Zahra">
+                        <div class="doctor-overlay">
+                            <button class="btn-consult">Konsultasi</button>
+                        </div>
+                    </div>
+                    <div class="doctor-info">
+                        <h3>dr. Tiara Zahra, Sp.OG</h3>
+                        <p class="doctor-specialty">Spesialis Kandungan</p>
+                        <p class="doctor-exp">12 Tahun Pengalaman</p>
+                        <div class="doctor-schedule">
+                            <i class="far fa-clock"></i> Senin - Sabtu, 10:00 - 16:00
+                        </div>
+                    </div>
+                </div>
+                <div class="doctor-card">
+                    <div class="doctor-img">
+                        <img src="fotodokter3.jpg" alt="dr. Raffasya Kainan Sudrajat">
+                        <div class="doctor-overlay">
+                            <button class="btn-consult">Konsultasi</button>
+                        </div>
+                    </div>
+                    <div class="doctor-info">
+                        <h3>dr. Raffasya Kainan Sudrajat, Sp.JP</h3>
+                        <p class="doctor-specialty">Spesialis Jantung</p>
+                        <p class="doctor-exp">18 Tahun Pengalaman</p>
+                        <div class="doctor-schedule">
+                            <i class="far fa-clock"></i> Selasa - Jumat, 08:00 - 14:00
+                        </div>
+                    </div>
+                </div>
+                <div class="doctor-card">
+                    <div class="doctor-img">
+                        <img src="fotodokter4.jpg" alt="dr. Reyshaka Akbar Sudrajat">
+                        <div class="doctor-overlay">
+                            <button class="btn-consult">Konsultasi</button>
+                        </div>
+                    </div>
+                    <div class="doctor-info">
+                        <h3>dr. Reyshaka Akbar Sudrajat, Sp.A</h3>
+                        <p class="doctor-specialty">Spesialis Anak</p>
+                        <p class="doctor-exp">10 Tahun Pengalaman</p>
+                        <div class="doctor-schedule">
+                            <i class="far fa-clock"></i> Senin - Sabtu, 09:00 - 15:00
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="fasilitas" class="facilities">
+        <div class="container">
+            <div class="section-header">
+                <h2>Fasilitas Unggulan</h2>
+                <p>Fasilitas modern untuk kenyamanan dan kesembuhan Anda</p>
+            </div>
+            <div class="facilities-grid">
+                <div class="facility-item">
+                    <div class="facility-icon">
+                        <i class="fas fa-procedures"></i>
+                    </div>
+                    <h3>Ruang Perawatan Modern</h3>
+                    <p>Kamar perawatan dilengkapi AC, TV, WiFi, dan fasilitas lengkap untuk kenyamanan pasien</p>
+                </div>
+                <div class="facility-item">
+                    <div class="facility-icon">
+                        <i class="fas fa-ambulance"></i>
+                    </div>
+                    <h3>Ambulans Siaga 24/7</h3>
+                    <p>Layanan ambulans darurat dengan peralatan medis lengkap siap melayani kapan saja</p>
+                </div>
+                <div class="facility-item">
+                    <div class="facility-icon">
+                        <i class="fas fa-prescription-bottle-alt"></i>
+                    </div>
+                    <h3>Farmasi Lengkap</h3>
+                    <p>Apotek dengan stok obat lengkap, terjamin kualitas, dan pelayanan farmasi 24 jam</p>
+                </div>
+                <div class="facility-item">
+                    <div class="facility-icon">
+                        <i class="fas fa-microscope"></i>
+                    </div>
+                    <h3>Lab Modern</h3>
+                    <p>Laboratorium dengan teknologi terkini dan hasil pemeriksaan akurat dalam waktu cepat</p>
+                </div>
+                <div class="facility-item">
+                    <div class="facility-icon">
+                        <i class="fas fa-user-nurse"></i>
+                    </div>
+                    <h3>Perawat Profesional</h3>
+                    <p>Tim perawat terlatih dan berpengalaman yang siap memberikan perawatan terbaik</p>
+                </div>
+                <div class="facility-item">
+                    <div class="facility-icon">
+                        <i class="fas fa-wifi"></i>
+                    </div>
+                    <h3>WiFi Gratis</h3>
+                    <p>Akses internet gratis di seluruh area rumah sakit untuk kenyamanan pasien dan keluarga</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="kontak" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>Hubungi Kami</h2>
+                <p>Kami siap melayani dan menjawab pertanyaan Anda</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="info-card">
+                        <div class="info-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="info-text">
+                            <h3>Alamat</h3>
+                            <p>Jl. Perum Asabri No. 22<br>Sumedang Utara, Jawa Barat 4321<br>Indonesia</p>
+                        </div>
+                    </div>
+                    <div class="info-card">
+                        <div class="info-icon">
+                            <i class="fas fa-phone-alt"></i>
+                        </div>
+                        <div class="info-text">
+                            <h3>Telepon</h3>
+                            <p>Umum: (021) 1234-5678<br>Emergency: 119<br>WhatsApp: 0812-3456-7890</p>
+                        </div>
+                    </div>
+                    <div class="info-card">
+                        <div class="info-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="info-text">
+                            <h3>Email</h3>
+                            <p>info@crownmed.com<br>customer.care@crownmed.com<br>emergency@crownmed.com</p>
+                        </div>
+                    </div>
+                    <div class="info-card">
+                        <div class="info-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <div class="info-text">
+                            <h3>Jam Operasional</h3>
+                            <p>IGD: 24 Jam Non-Stop<br>Poliklinik: 08.00 - 20.00 WIB<br>Farmasi: 24 Jam</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form-wrapper">
+                    <h3>Formulir Janji Temu</h3>
+                    <form id="appointmentForm" class="contact-form" novalidate>
+                        <div class="form-group">
+                            <label for="name">Nama Lengkap <span class="required">*</span></label>
+                            <input type="text" id="name" name="name" placeholder="Masukkan nama lengkap" required>
+                            <span class="error-message"></span>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email <span class="required">*</span></label>
+                            <input type="email" id="email" name="email" placeholder="contoh@email.com" required>
+                            <span class="error-message"></span>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">No. Telepon <span class="required">*</span></label>
+                            <input type="tel" id="phone" name="phone" placeholder="08123456789" required>
+                            <span class="error-message"></span>
+                        </div>
+                        <div class="form-group">
+                            <label for="service">Pilih Layanan <span class="required">*</span></label>
+                            <select id="service" name="service" required>
+                                <option value="">-- Pilih Layanan --</option>
+                                <option value="umum">Poli Umum</option>
+                                <option value="gigi">Poli Gigi</option>
+                                <option value="kandungan">Poli Kandungan</option>
+                                <option value="anak">Poli Anak</option>
+                                <option value="jantung">Poli Jantung</option>
+                                <option value="penyakit-dalam">Poli Penyakit Dalam</option>
+                                <option value="mcu">Medical Check Up</option>
+                            </select>
+                            <span class="error-message"></span>
+                        </div>
+                        <div class="form-group">
+                            <label for="date">Tanggal Kunjungan <span class="required">*</span></label>
+                            <input type="date" id="date" name="date" required>
+                            <span class="error-message"></span>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Pesan/Keluhan</label>
+                            <textarea id="message" name="message" rows="4" placeholder="Ceritakan keluhan Anda (opsional)"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-full">
+                            <i class="fas fa-paper-plane"></i> Kirim Permohonan
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-col">
+                    <div class="footer-logo">
+                        <i class="fas fa-hospital"></i>
+                        <h3>CrownMed Hospital</h3>
+                    </div>
+                    <p>Pelayanan kesehatan terpercaya dengan teknologi modern dan tenaga medis profesional untuk kesejahteraan Anda dan keluarga.</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h3>Link Cepat</h3>
+                    <ul>
+                        <li><a href="#beranda"><i class="fas fa-chevron-right"></i> Beranda</a></li>
+                        <li><a href="#layanan"><i class="fas fa-chevron-right"></i> Layanan</a></li>
+                        <li><a href="#dokter"><i class="fas fa-chevron-right"></i> Dokter</a></li>
+                        <li><a href="#fasilitas"><i class="fas fa-chevron-right"></i> Fasilitas</a></li>
+                        <li><a href="#kontak"><i class="fas fa-chevron-right"></i> Kontak</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Layanan Kami</h3>
+                    <ul>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> IGD 24 Jam</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> Rawat Inap</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> Medical Check Up</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> Laboratorium</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> Radiologi</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Newsletter</h3>
+                    <p>Dapatkan informasi kesehatan dan promo terbaru dari kami</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Email Anda" required>
+                        <button type="submit"><i class="fas fa-paper-plane"></i></button>
+                    </form>
+                    <div class="footer-badges">
+                        <img src="akreditas.jpg" alt="Akreditasi Badge">
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 CrownMed Hospital. All Rights Reserved. | <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+                <p>Designed with <i class="fas fa-heart"></i> for Better Healthcare</p>
+            </div>
+        </div>
+    </footer>
+
+    <button id="scrollTopBtn" class="scroll-top" aria-label="Scroll to Top">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
